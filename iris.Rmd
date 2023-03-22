@@ -1,0 +1,41 @@
+---
+title: "Project 1"
+output: html_notebook
+---
+
+
+
+```{r}
+install.packages("PASWR")
+library(PASWR)
+library(datasets)
+```
+
+
+```{r}
+iris
+```
+
+
+```{r}
+plot(Sepal.Length ~ Sepal.Width, data = iris, main = "Relationship between length and width of iris", col = Species)
+
+```
+
+
+```{r}
+plot(log(Sepal.Length) ~ Sepal.Width, data = iris, main = "Relationship between length and width of iris", col = Species)
+
+
+```
+
+
+```{r}
+plot(Sepal.Length ~ log(Sepal.Width), data = iris, main = "Relationship between length and width of iris", col = Species)
+
+```
+
+
+```{r}
+```
+
